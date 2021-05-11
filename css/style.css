@@ -456,7 +456,7 @@ div#sea {
     right: 230px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .div#video {
     position: absolute;
     right: 140px;
