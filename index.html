@@ -14,7 +14,7 @@
 $(document).ready(function(){
   $(".giftbox").click(function(){
     setInterval(function(){ 
-        $("#video").css({"display": "block"}); 
+        location.replace("https://pareeth.netlify.app/video.html")
     }, 6000);
   });
 });
@@ -71,14 +71,6 @@ $(document).ready(function(){
                 </div>
             </div>
         </div>
-        
-        <div id="video" style="display: none;">
-            <video width="280" controls>
-                <source src="pavibday.mp4" type="video/mp4" >
-                Your browser does not support HTML video.
-              </video>    
-        </div>
-        
         
         <script src="js/index.js"></script>
         
