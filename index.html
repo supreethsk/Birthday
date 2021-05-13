@@ -9,7 +9,16 @@
         <!-- Link CSS Style.css file-->
         
         <link rel="stylesheet" href="css/style.css">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".giftbox").click(function(){
+    setInterval(function(){ 
+        $("#video").css({"display": "block"}); 
+    }, 6000);
+  });
+});
+</script>
     </head>
     <body>
         <div class='moon'>
@@ -63,7 +72,12 @@
             </div>
         </div>
         
-        <div id="video"></div>
+        <div id="video" style="display: none;">
+            <video width="280" controls>
+                <source src="pavibday.mp4" type="video/mp4" >
+                Your browser does not support HTML video.
+              </video>    
+        </div>
         
         
         <script src="js/index.js"></script>
